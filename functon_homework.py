@@ -37,3 +37,36 @@ print(f(2))
 print(f(3))	
 print(f(4))	
 print(f(5))	
+
+
+def get_pricipal(d):
+	num = ( 0.07 * d) + (250)
+	return num
+
+
+print(get_pricipal(1))
+print(get_pricipal(3))
+print(get_pricipal(7))
+print(get_pricipal(20))
+
+def get_pricipal(s):
+	num = ( 0.04 * s) + 325
+	return num
+
+
+print(get_pricipal(1))	
+print(get_pricipal(3))	
+print(get_pricipal(7))	
+print(get_pricipal(20))	
+
+def get_pricipal(y):
+    amount = 10000 * ((1 + 0.04 )**y)
+    return amount
+
+
+print(get_pricipal(1))    
+print(get_pricipal(2))    
+print(get_pricipal(3))    
+
+
+
